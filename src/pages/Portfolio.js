@@ -33,15 +33,15 @@ export default function Portfolio() {
   return (
     <div className="text-center w-full grid justify-items-center gap-y-20">
       { 
-        // !walletAddr.length ?
-        // <div className="w-full grid gap-y-10 justify-items-center">
-        //   <b className='text-[#F7ECE1] text-[26px] md:text-[32px] md:max-xl:w-[392px] w-full font-travel-bold'>
-        //     Connect Wallet to Get Info
-        //   </b>
+        !walletAddr.length ?
+        <div className="w-full grid gap-y-10 justify-items-center">
+          <b className='text-[#F7ECE1] text-[26px] md:text-[32px] md:max-xl:w-[392px] w-full font-travel-bold'>
+            Connect Wallet to Get Info
+          </b>
 
-        //   <ConnectWallet onClick={() => {setWalletAddr("wallet address"); console.log(walletAddr)}} />
-        // </div>
-        // :
+          <ConnectWallet onClick={() => {setWalletAddr("wallet address"); console.log(walletAddr)}} />
+        </div>
+        :
         <div className="w-full grid gap-y-20">
           <b className='w-full text-[#F7ECE1] text-[26px] md:text-[32px] font-travel-bold'>
             <div>

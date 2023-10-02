@@ -35,9 +35,9 @@ export default function Footer() {
           <hr className='w-[60px] pb-6' />
 
           <div className='grid gap-y-4 md:gap-y-6'>
-            <a href='#' target='_blank'>Documents</a>
-            <a href='#' target='_blank'>GitHub</a>
-            <a href='#' target='_blank'>Medium</a>
+            <a href='/' target='_blank'>Documents</a>
+            <a href='/' target='_blank'>GitHub</a>
+            <a href='/' target='_blank'>Medium</a>
           </div>
         </div>
 
@@ -46,8 +46,8 @@ export default function Footer() {
           <hr className='w-[60px] pb-6' />
 
           <div className='grid gap-y-4 md:gap-y-6'>
-            <a href='#' target='_blank'>Discord</a>
-            <a href='#' target='_blank'>Telegram</a>
+            <a href='/' target='_blank'>Discord</a>
+            <a href='/' target='_blank'>Telegram</a>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ export default function Footer() {
           <hr className='w-[60px] pb-6' />
 
           <div className='grid gap-y-4 md:gap-y-6'>
-            <a href='#' target='_blank'>Twitter</a>
+            <a href='/' target='_blank'>Twitter</a>
           </div>
         </div>
       </div>
